@@ -1,0 +1,6 @@
+{
+  "schema_version": "sovmem-okf-reference-v1",
+  "repository": "GoogleCloudPlatform/knowledge-catalog",
+  "commit": "d44368c15e38e7c92481c5992e4f9b5b421a801d",
+  "normative_file": "okf/SPEC.md"
+}

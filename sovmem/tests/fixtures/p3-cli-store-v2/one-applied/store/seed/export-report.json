@@ -1,0 +1,17 @@
+{
+  "counts": {
+    "selected": 63,
+    "exported": 62,
+    "excluded": 1,
+    "warnings": 1,
+    "errors": 0
+  },
+  "diagnostics": [
+    {
+      "severity": "warning",
+      "code": "source.excluded_dirty",
+      "source_path": "04-Research/DSOM/source-pages/table-of-contents__contributing.md",
+      "message": "selected source was excluded: dirty"
+    }
+  ]
+}

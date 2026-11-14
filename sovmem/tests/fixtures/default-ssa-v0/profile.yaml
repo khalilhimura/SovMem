@@ -1,0 +1,18 @@
+okf_version: "0.1"
+profile: nous-sovmem-v0
+nous_schema: nous-ssa-context-v0
+ssa_id: test-ssa
+ssa_profile: default-ssa-v0
+familiar_id: familiar
+context_namespace: test-ssa
+vault_id: test-vault
+context_kinds:
+  Research Brief: concept
+mapping_rules:
+  - { pattern: "Research/*.md", core_type: concept, context_kind: "Research Brief", layer: analysis, authority: working }
+sensitivity_rules: []
+default_sensitivity: internal
+public_allowlist: []
+trust: {}
+ledger: {}
+runtime: {}

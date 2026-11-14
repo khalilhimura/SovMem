@@ -1,0 +1,71 @@
+okf_version: "0.1"
+profile: nous-sovmem-v0
+nous_schema: nous-ssa-context-v0
+ssa_id: ssa-0
+ssa_profile: audy-ssa0-v0
+familiar_id: audy
+context_namespace: ssa-0
+vault_id: audy-vault
+context_kinds:
+  Doctrine: concept
+  Identity: concept
+  Operating Contract: concept
+  Memory Index: concept
+  Health Report: concept
+  Daily Log: concept
+  Protocol: concept
+  Person: concept
+  Harness Lane: concept
+  Project Brief: concept
+  Research Brief: concept
+  Design Brief: concept
+  Source Snapshot: resource
+  Concept Map: concept
+  Gap Analysis: concept
+  Adoption Spec: concept
+  Profile Spec: concept
+  Promotion Candidate Report: concept
+  Loop Definition: concept
+  Loop Output: concept
+  Decision Log: concept
+  Handoff: concept
+  Runtime Note: concept
+mapping_rules:
+  - { pattern: "01-Soul/Audy Himura.md", core_type: concept, context_kind: Identity, layer: synthesis, authority: canonical }
+  - { pattern: "AGENTS.md", core_type: concept, context_kind: "Operating Contract", layer: synthesis, authority: canonical }
+  - { pattern: "OPERATIONS.md", core_type: concept, context_kind: "Operating Contract", layer: synthesis, authority: canonical }
+  - { pattern: "00-Index.md", core_type: concept, context_kind: "Memory Index", layer: synthesis, authority: canonical }
+  - { pattern: "02-Memory/MEMORY.md", core_type: concept, context_kind: "Memory Index", layer: synthesis, authority: canonical }
+  - { pattern: "04-Research/Agent-Loop-Engineering/Daily-Court-Deep-Gap-Notes.md", core_type: concept, context_kind: "Gap Analysis", layer: analysis, authority: working }
+  - { pattern: "04-Research/Agent-Loop-Engineering/Implementation-Backlog.md", core_type: concept, context_kind: "Research Brief", layer: analysis, authority: working }
+  - { pattern: "04-Research/AVM/AVM-OKF-Substrate-Investigation.md", core_type: concept, context_kind: "Research Brief", layer: analysis, authority: working }
+  - { pattern: "04-Research/AVM/Enterprise-Managed-Authorization-Implications.md", core_type: concept, context_kind: "Design Brief", layer: analysis, authority: working }
+  - { pattern: "04-Research/AVM/Nous-Graph-MCP-Precursor-Note.md", core_type: concept, context_kind: "Design Brief", layer: analysis, authority: working }
+  - { pattern: "04-Research/**/source-pages/*.md", core_type: resource, context_kind: "Source Snapshot", layer: concept, authority: raw }
+  - { pattern: "04-Research/**/*Concept-Map*.md", core_type: concept, context_kind: "Concept Map", layer: analysis, authority: working }
+  - { pattern: "04-Research/**/*Gap-Analysis*.md", core_type: concept, context_kind: "Gap Analysis", layer: analysis, authority: working }
+  - { pattern: "04-Research/**/*Adoption-Spec*.md", core_type: concept, context_kind: "Adoption Spec", layer: analysis, authority: working }
+  - { pattern: "04-Research/**/*Profile*.md", core_type: concept, context_kind: "Profile Spec", layer: analysis, authority: working }
+  - { pattern: "04-Research/**/README.md", core_type: concept, context_kind: "Research Brief", layer: analysis, authority: working }
+  - { pattern: "01-Soul/*.md", core_type: concept, context_kind: Doctrine, layer: synthesis, authority: canonical }
+  - { pattern: "03-Protocols/*.md", core_type: concept, context_kind: Protocol, layer: concept, authority: reviewed }
+  - { pattern: "08-Hermes/**/*.md", core_type: concept, context_kind: "Harness Lane", layer: analysis, authority: working }
+  - { pattern: "09-Claude/**/*.md", core_type: concept, context_kind: "Harness Lane", layer: analysis, authority: working }
+  - { pattern: "10-Codex/**/*.md", core_type: concept, context_kind: "Harness Lane", layer: analysis, authority: working }
+  - { pattern: "11-Antigravity/**/*.md", core_type: concept, context_kind: "Harness Lane", layer: analysis, authority: working }
+  - { pattern: "05-Daily/*.md", core_type: concept, context_kind: "Daily Log", layer: analysis, authority: raw }
+  - { pattern: "loops/**/references/*.md", core_type: concept, context_kind: "Loop Definition", layer: concept, authority: reviewed }
+  - { pattern: "loops/**/archive/*.md", core_type: concept, context_kind: "Loop Output", layer: analysis, authority: raw }
+sensitivity_rules:
+  - { pattern: "02-Memory/**", sensitivity: private }
+  - { pattern: "05-Daily/**", sensitivity: private }
+  - { pattern: "08-Hermes/**", sensitivity: private }
+  - { pattern: "09-Claude/**", sensitivity: private }
+  - { pattern: "10-Codex/**", sensitivity: private }
+  - { pattern: "11-Antigravity/**", sensitivity: private }
+  - { pattern: "01-Soul/**", sensitivity: internal }
+  - { pattern: "03-Protocols/**", sensitivity: internal }
+  - { pattern: "04-Research/**/source-pages/**", sensitivity: internal }
+  - { pattern: "04-Research/**", sensitivity: internal }
+default_sensitivity: internal
+public_allowlist: []

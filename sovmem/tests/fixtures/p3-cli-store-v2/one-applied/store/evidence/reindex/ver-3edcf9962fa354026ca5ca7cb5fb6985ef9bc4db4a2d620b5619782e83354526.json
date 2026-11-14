@@ -1,0 +1,21 @@
+{
+  "schema_version": "sovmem-reindex-receipt-v1",
+  "verdict_id": "ver-3edcf9962fa354026ca5ca7cb5fb6985ef9bc4db4a2d620b5619782e83354526",
+  "generation_id": "gen-0000000000000001",
+  "profile_hash": "66aa2c017c04a968a67aa314ce132cb7467b0382cac7585b3f83e5524941b59f",
+  "manifest_hash": "114f869948328a56d71751e6b961febdab0cb2c707b5462795e8d3e4054d4ff9",
+  "bundle_hash": "cc681b4b60ff17b56081029b801cb58f8c856f4957d22218793eb37bb67f1940",
+  "documents_hash": "570a1a02f50f411b02685efe2ebc199dec528ab91ac53d18563792f53a790e3f",
+  "documents": 64,
+  "graph_nodes": 64,
+  "graph_edges": 1,
+  "external_typed_links": 103,
+  "graph_hash": "506d0da277eabde120968057512537fbee9a711f2128284b137ee7049864a435",
+  "index_schema": "sovmem-tantivy-schema-v1",
+  "tokenizer": "sovmem-simple-v1",
+  "ranking": "sovmem-bm25-v1",
+  "tantivy_version": "0.24.2",
+  "petgraph_version": "0.8.3",
+  "index_config_hash": "95a2237b666e0d6557709bb98eb2b4fe54a7478f6dca17df0bd3a14049e17f8d",
+  "semantic_manifest_hash": "5cde680e088c9a729f0d7b6befc2cdce1c575b89fd042ec60b9cae6d79fd8ad4"
+}

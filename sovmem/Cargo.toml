@@ -1,0 +1,31 @@
+[package]
+name = "sovmem"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.84"
+license = "MIT"
+repository = "https://github.com/khalilhimura/SovMem"
+
+[dependencies]
+anyhow = "=1.0.95"
+blake3 = "=1.5.5"
+clap = { version = "=4.5.27", features = ["derive"] }
+serde = { version = "=1.0.219", features = ["derive"] }
+serde_json = { version = "=1.0.140", features = ["raw_value"] }
+serde_yaml = "=0.9.34"
+rustix = { version = "=1.1.4", features = ["fs"] }
+tantivy = { version = "=0.24.2", default-features = false, features = ["mmap", "lz4-compression"] }
+petgraph = { version = "=0.8.3", default-features = false, features = ["std"] }
+thiserror = "=2.0.11"
+
+[lib]
+path = "src/lib.rs"
+
+[features]
+default = ["mcp"]
+mcp = []
+test-support = []
+
+[[bin]]
+name = "sovmem"
+path = "src/main.rs"

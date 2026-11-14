@@ -1,0 +1,24 @@
+mode: committed
+source_commit: 43824cfd9caed7b260aa442128fd1130ddb6e2ff
+include:
+  - 04-Research/OKF/README.md
+  - 04-Research/OKF/Audy-OKF-Profile-Draft.md
+  - 04-Research/OKF/OKF-Adoption-Spec.md
+  - 04-Research/OKF/OKF-Audy-Vault-Gap-Analysis.md
+  - 04-Research/OKF/OKF-Concept-Map.md
+  - 04-Research/AVM/README.md
+  - 04-Research/AVM/AVM-Adoption-Spec.md
+  - 04-Research/DSOM/README.md
+  - 04-Research/DSOM/DSOM-Adoption-Spec.md
+  - 04-Research/DSOM/DSOM-Concept-Map.md
+  - 04-Research/DSOM/DSOM-TFIS-SSA-Gap-Analysis.md
+  - 04-Research/Agent-Loop-Engineering/Loop-Engineering-Concept-Map.md
+  - 04-Research/Agent-Loop-Engineering/TFIS-Daily-Court-Gap-Analysis.md
+exclude:
+  - "**/source-pages/**"
+  - "02-Memory/**"
+  - "05-Daily/**"
+  - "08-Hermes/**"
+  - "09-Claude/**"
+  - "10-Codex/**"
+  - "11-Antigravity/**"

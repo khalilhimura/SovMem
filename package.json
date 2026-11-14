@@ -1,0 +1,38 @@
+{
+  "name": "sovmem-verification",
+  "version": "0.1.0",
+  "description": "Standalone SovMem CLI/library verification tooling",
+  "type": "module",
+  "scripts": {
+    "test:sovmem:js": "node scripts/run-js-tests.mjs --sovmem",
+    "test:sovmem": "npm run test:sovmem:js && cargo test --locked --manifest-path sovmem/Cargo.toml --lib --features test-support && cargo test --locked --features test-support --manifest-path sovmem/Cargo.toml --test bundle_verification --test cli --test thresholds --test validation --test corpus_config --test eval --test fuzz_frontmatter --test mcp_integration --test mcp_stdio --test p2_cli --test p2_determinism --test p3_canon --test p3_cli --test p3_index --test p3_internal --test p3_privacy --test p3_proposal --test p3_stats --test p3_transaction --test profile_config --test source_contract --test source_snapshot --test tracked_evidence --test trust_unit",
+    "test:sovmem:full": "npm run test:sovmem:js && cargo test --locked --features test-support --manifest-path sovmem/Cargo.toml",
+    "test:sovmem:p3-internal": "cargo test --locked --features test-support --manifest-path sovmem/Cargo.toml --test p3_transaction --test p3_internal --test p3_canon --test p3_proposal --test p3_index --test p3_stats",
+    "test:sovmem:scale": "cargo test --locked --features test-support --manifest-path sovmem/Cargo.toml --test scale_10k -- --include-ignored",
+    "audit:sovmem": "node scripts/generate-sovmem-build-audit.mjs",
+    "audit:sovmem:check": "node scripts/generate-sovmem-build-audit.mjs --check",
+    "canary:audy": "if [ -z \"$AUDY_VAULT\" ]; then echo \"error: AUDY_VAULT must be set to a readable Git vault\" >&2; exit 1; fi; cargo run --locked --manifest-path sovmem/Cargo.toml -- export --vault \"$AUDY_VAULT\" --profile profiles/audy-ssa0-v0/profile.yaml --canary profiles/audy-ssa0-v0/canary.yaml --output var/audy-sovmem-canary",
+    "verify:audy": "cargo run --locked --manifest-path sovmem/Cargo.toml -- verify --profile profiles/audy-ssa0-v0/profile.yaml --bundle var/audy-sovmem-canary",
+    "corpus:audy": "if [ -z \"$AUDY_VAULT\" ]; then echo \"error: AUDY_VAULT must be set to a readable Git vault\" >&2; exit 1; fi; cargo run --locked --manifest-path sovmem/Cargo.toml -- corpus --vault \"$AUDY_VAULT\" --profile profiles/audy-ssa0-v0/profile.yaml --corpus profiles/audy-ssa0-v0/retrieval-corpus-v1.yaml --output var/audy-sovmem-retrieval-corpus",
+    "verify:corpus:audy": "cargo run --locked --manifest-path sovmem/Cargo.toml -- verify --profile profiles/audy-ssa0-v0/profile.yaml --bundle var/audy-sovmem-retrieval-corpus --level 3",
+    "stats:audy": "cargo run --locked --manifest-path sovmem/Cargo.toml -- stats --profile profiles/audy-ssa0-v0/profile.yaml --bundle var/audy-sovmem-retrieval-corpus",
+    "verify:golden:audy": "cargo run --locked --manifest-path sovmem/Cargo.toml -- verify-golden --profile profiles/audy-ssa0-v0/profile.yaml --bundle var/audy-sovmem-retrieval-corpus --golden evals/audy-sovmem-v0/golden.jsonl",
+    "index:audy": "cargo run --locked --manifest-path sovmem/Cargo.toml -- index --profile profiles/audy-ssa0-v0/profile.yaml --bundle var/audy-sovmem-retrieval-corpus --index var/audy-sovmem-derived-index",
+    "query:audy": "cargo run --locked --manifest-path sovmem/Cargo.toml -- query --profile profiles/audy-ssa0-v0/profile.yaml --bundle var/audy-sovmem-retrieval-corpus --index var/audy-sovmem-derived-index",
+    "sentry:sovmem": "bash scripts/sovmem-sentry.sh",
+    "eval:audy": "cargo run --locked --manifest-path sovmem/Cargo.toml -- eval --profile profiles/audy-ssa0-v0/profile.yaml --bundle var/audy-sovmem-retrieval-corpus --index var/audy-sovmem-derived-index --golden evals/audy-sovmem-v0/golden.jsonl --thresholds evals/audy-sovmem-v0/thresholds.json --baseline evals/audy-sovmem-v0/baseline.json",
+    "test:js": "node scripts/run-js-tests.mjs && node --test .github/scripts/sovmem-scope.test.mjs",
+    "test": "npm run test:js && npm run test:sovmem:full"
+  },
+  "keywords": [],
+  "author": "",
+  "engines": {
+    "node": ">=20"
+  },
+  "private": true,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khalilhimura/SovMem.git"
+  }
+}

@@ -1,0 +1,78 @@
+schema: audy-retrieval-corpus-v0
+mode: committed
+source_commit: 43824cfd9caed7b260aa442128fd1130ddb6e2ff
+minimum_documents: 53
+minimum_research_documents: 45
+core:
+  - { path: "01-Soul/Audy Himura.md", role: identity }
+  - { path: "01-Soul/Identity.md", role: doctrine }
+  - { path: "01-Soul/SSA Archetypes.md", role: doctrine }
+  - { path: "01-Soul/TFIS Axioms.md", role: doctrine }
+  - { path: "01-Soul/TFIS Canon.md", role: doctrine }
+  - { path: "AGENTS.md", role: operating-contract }
+  - { path: "OPERATIONS.md", role: operating-contract }
+  - { path: "00-Index.md", role: context-index }
+research:
+  - { path: "04-Research/Agent-Loop-Engineering/Daily-Court-Deep-Gap-Notes.md", theme: tfis-ssa }
+  - { path: "04-Research/Agent-Loop-Engineering/Implementation-Backlog.md", theme: tfis-ssa }
+  - { path: "04-Research/Agent-Loop-Engineering/Loop-Engineering-Concept-Map.md", theme: tfis-ssa }
+  - { path: "04-Research/Agent-Loop-Engineering/README.md", theme: tfis-ssa }
+  - { path: "04-Research/Agent-Loop-Engineering/TFIS-Daily-Court-Gap-Analysis.md", theme: tfis-ssa }
+  - { path: "04-Research/DSOM/DSOM-Adoption-Spec.md", theme: tfis-ssa }
+  - { path: "04-Research/DSOM/DSOM-Concept-Map.md", theme: tfis-ssa }
+  - { path: "04-Research/DSOM/DSOM-TFIS-SSA-Gap-Analysis.md", theme: tfis-ssa }
+  - { path: "04-Research/DSOM/README.md", theme: tfis-ssa }
+  - { path: "04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__ai-cognitive-twin-protocol.md", theme: tfis-ssa }
+  - { path: "04-Research/DSOM/source-pages/1.-sovereign-governance__digital-sovereignty-model.md", theme: tfis-ssa }
+  - { path: "04-Research/DSOM/source-pages/1.-sovereign-governance__operational-sovereignty.md", theme: tfis-ssa }
+  - { path: "04-Research/AVM/AVM-Adoption-Spec.md", theme: sovereign-context }
+  - { path: "04-Research/AVM/AVM-OKF-Substrate-Investigation.md", theme: sovereign-context }
+  - { path: "04-Research/AVM/Enterprise-Managed-Authorization-Implications.md", theme: sovereign-context }
+  - { path: "04-Research/AVM/Nous-Graph-MCP-Precursor-Note.md", theme: sovereign-context }
+  - { path: "04-Research/AVM/README.md", theme: sovereign-context }
+  - { path: "04-Research/AVM/source-pages/blog-enterprise-managed-auth.md", theme: sovereign-context }
+  - { path: "04-Research/AVM/source-pages/mcp-extension-enterprise-managed-authorization.md", theme: sovereign-context }
+  - { path: "04-Research/OKF/Audy-OKF-Profile-Draft.md", theme: sovereign-context }
+  - { path: "04-Research/OKF/OKF-Adoption-Spec.md", theme: sovereign-context }
+  - { path: "04-Research/OKF/OKF-Audy-Vault-Gap-Analysis.md", theme: sovereign-context }
+  - { path: "04-Research/OKF/OKF-Concept-Map.md", theme: sovereign-context }
+  - { path: "04-Research/OKF/README.md", theme: sovereign-context }
+  - { path: "04-Research/OKF/source-pages/README.md", theme: sovereign-context }
+  - { path: "04-Research/OKF/source-pages/SPEC.md", theme: sovereign-context }
+  - { path: "04-Research/DSOM/source-pages/palace-rooms-wing_dsom_core__room_brain_artifacts-brain-files.md", theme: sovereign-context }
+  - { path: "04-Research/DSOM/source-pages/1.-sovereign-governance__ai-master-protocol.md", theme: agent-operations }
+  - { path: "04-Research/DSOM/source-pages/1.-sovereign-governance__crisp2-operational-strategy.md", theme: agent-operations }
+  - { path: "04-Research/DSOM/source-pages/1.-sovereign-governance__gitops-aiops-ansible-strategy.md", theme: agent-operations }
+  - { path: "04-Research/DSOM/source-pages/1.-sovereign-governance__operational-guide.md", theme: agent-operations }
+  - { path: "04-Research/DSOM/source-pages/2.-operational-rituals__eod-ritual.md", theme: agent-operations }
+  - { path: "04-Research/DSOM/source-pages/2.-operational-rituals__ritual-of-transition.md", theme: agent-operations }
+  - { path: "04-Research/DSOM/source-pages/2.-operational-rituals__sod-ritual.md", theme: agent-operations }
+  - { path: "04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__ai-response-template.md", theme: agent-operations }
+  - { path: "04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__howto-adopt-dsom.md", theme: agent-operations }
+  - { path: "04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__howto-reanimate-session.md", theme: agent-operations }
+  - { path: "04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__howto-upgrade-dsom.md", theme: agent-operations }
+  - { path: "04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__human-handover-context.md", theme: agent-operations }
+  - { path: "04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__multi-agent-protocols.md", theme: agent-operations }
+  - { path: "04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__reanimation-prompt-template.md", theme: agent-operations }
+  - { path: "04-Research/DSOM/source-pages/1.-sovereign-governance__hub-and-spoke-model.md", theme: governance-evidence }
+  - { path: "04-Research/DSOM/source-pages/1.-sovereign-governance__itil-alignment.md", theme: governance-evidence }
+  - { path: "04-Research/DSOM/source-pages/5.-tools-and-automation-drivers__audit-pre-flight.md", theme: governance-evidence }
+  - { path: "04-Research/DSOM/source-pages/5.-tools-and-automation-drivers__privacy-guardian.md", theme: governance-evidence }
+  - { path: "04-Research/DSOM/source-pages/7.-ansible-playbooks-dsom-operational__audit-preflight.yml-pre-flight-audit.md", theme: governance-evidence }
+  - { path: "04-Research/DSOM/source-pages/7.-ansible-playbooks-dsom-operational__privacy-scan.yml-privacy-guardian.md", theme: governance-evidence }
+  - { path: "04-Research/DSOM/source-pages/dsom-automation-encyclopedia-docs-tools__howto-audit-pre-flight.md", theme: governance-evidence }
+  - { path: "04-Research/DSOM/source-pages/dsom-automation-encyclopedia-docs-tools__howto-privacy-guardian.md", theme: governance-evidence }
+  - { path: "04-Research/DSOM/source-pages/palace-documentation__research-reasoning-gap.md", theme: governance-evidence }
+  - { path: "04-Research/DSOM/source-pages/palace-rooms-wing_dsom_core__room_clean_architecture-design-laws.md", theme: governance-evidence }
+  - { path: "04-Research/DSOM/source-pages/palace-rooms-wing_dsom_core__room_crisp_strategy-ai-interaction.md", theme: governance-evidence }
+  - { path: "04-Research/DSOM/source-pages/palace-rooms-wing_dsom_core__room_ledger-version-history.md", theme: governance-evidence }
+  - { path: "04-Research/DSOM/source-pages/palace-rooms-wing_dsom_core__room_uncategorised-discoveries.md", theme: governance-evidence }
+  - { path: "04-Research/DSOM/source-pages/table-of-contents__contributing.md", theme: governance-evidence }
+exclude:
+  - "02-Memory/**"
+  - "05-Daily/**"
+  - "08-Hermes/**"
+  - "09-Claude/**"
+  - "10-Codex/**"
+  - "11-Antigravity/**"
+  - "loops/**"

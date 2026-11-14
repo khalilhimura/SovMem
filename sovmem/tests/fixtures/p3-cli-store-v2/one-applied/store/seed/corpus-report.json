@@ -1,0 +1,478 @@
+{
+  "schema": "audy-retrieval-corpus-v1",
+  "profile": "nous-sovmem-v0",
+  "source_commit": "43824cfd9caed7b260aa442128fd1130ddb6e2ff",
+  "counts": {
+    "candidates": 63,
+    "core": 8,
+    "research": 54,
+    "rejected": 1,
+    "warnings": 1,
+    "errors": 0
+  },
+  "required_core": [
+    "00-Index.md",
+    "01-Soul/Audy Himura.md",
+    "01-Soul/Identity.md",
+    "01-Soul/SSA Archetypes.md",
+    "01-Soul/TFIS Axioms.md",
+    "01-Soul/TFIS Canon.md",
+    "AGENTS.md",
+    "OPERATIONS.md"
+  ],
+  "research_by_theme": {
+    "tfis-ssa": 12,
+    "sovereign-context": 15,
+    "agent-operations": 14,
+    "governance-evidence": 13
+  },
+  "accepted": [
+    {
+      "source_path": "00-Index.md",
+      "id": "ssa-0/00-Index",
+      "lane": "core",
+      "theme": null,
+      "source_hash": "642c86703b4a822ed3af6f4987b29051a760c95fe20015e097934defb05fd4f4"
+    },
+    {
+      "source_path": "01-Soul/Audy Himura.md",
+      "id": "ssa-0/01-Soul/Audy%20Himura",
+      "lane": "core",
+      "theme": null,
+      "source_hash": "47ba4253bb97d0c4f6311e76c341aac6243dc7eb8ab6b0068ca684e897c032e3"
+    },
+    {
+      "source_path": "01-Soul/Identity.md",
+      "id": "ssa-0/01-Soul/Identity",
+      "lane": "core",
+      "theme": null,
+      "source_hash": "96b74cfd895e539f92692c722e6bdf7d4f9feff9019c13c222eaedb06d25d8ea"
+    },
+    {
+      "source_path": "01-Soul/SSA Archetypes.md",
+      "id": "ssa-0/01-Soul/SSA%20Archetypes",
+      "lane": "core",
+      "theme": null,
+      "source_hash": "e860742fdf71d394d0017c47c9ff0ab16da537bb46b1747739f2e6fd47d9ab29"
+    },
+    {
+      "source_path": "01-Soul/TFIS Axioms.md",
+      "id": "ssa-0/01-Soul/TFIS%20Axioms",
+      "lane": "core",
+      "theme": null,
+      "source_hash": "369a6b9a5db44cac32cd703f48b6e8e1b3c0de14df5a97d5934aaa44b6a5882f"
+    },
+    {
+      "source_path": "01-Soul/TFIS Canon.md",
+      "id": "ssa-0/01-Soul/TFIS%20Canon",
+      "lane": "core",
+      "theme": null,
+      "source_hash": "abe2dfd87d56536eca194182b9d634d82e5710f9d64824b06213a3786cf55f58"
+    },
+    {
+      "source_path": "04-Research/AVM/AVM-Adoption-Spec.md",
+      "id": "ssa-0/04-Research/AVM/AVM-Adoption-Spec",
+      "lane": "research",
+      "theme": "sovereign-context",
+      "source_hash": "5ac07d49a5c36a4ba3baab835f7d1e9ed50e1cd52a4c059f670f81163781eb81"
+    },
+    {
+      "source_path": "04-Research/AVM/AVM-OKF-Substrate-Investigation.md",
+      "id": "ssa-0/04-Research/AVM/AVM-OKF-Substrate-Investigation",
+      "lane": "research",
+      "theme": "sovereign-context",
+      "source_hash": "f94062c804b3a65603ae352cbad07d7f93ebdcc93a8228bbbed6b17e1fba62b5"
+    },
+    {
+      "source_path": "04-Research/AVM/Enterprise-Managed-Authorization-Implications.md",
+      "id": "ssa-0/04-Research/AVM/Enterprise-Managed-Authorization-Implications",
+      "lane": "research",
+      "theme": "sovereign-context",
+      "source_hash": "a0efcb99bb8e9b09f41420b6e0fa0bfb291c1712e0a779c05d0d441d88af89ca"
+    },
+    {
+      "source_path": "04-Research/AVM/Nous-Graph-MCP-Precursor-Note.md",
+      "id": "ssa-0/04-Research/AVM/Nous-Graph-MCP-Precursor-Note",
+      "lane": "research",
+      "theme": "sovereign-context",
+      "source_hash": "f8f3a3624e42669337d7cfa2511529e54742b873b5402aeea2feb0cd95b62a6b"
+    },
+    {
+      "source_path": "04-Research/AVM/README.md",
+      "id": "ssa-0/04-Research/AVM/README",
+      "lane": "research",
+      "theme": "sovereign-context",
+      "source_hash": "8c4edda674854e2379074bba162ba659c4445cce839601af4b1399d025d6d799"
+    },
+    {
+      "source_path": "04-Research/AVM/source-pages/blog-enterprise-managed-auth.md",
+      "id": "ssa-0/04-Research/AVM/source-pages/blog-enterprise-managed-auth",
+      "lane": "research",
+      "theme": "sovereign-context",
+      "source_hash": "0298f0cb4b3a57c434de9d42e474165f858c56a7e9311326d07983f9882dedc6"
+    },
+    {
+      "source_path": "04-Research/AVM/source-pages/mcp-extension-enterprise-managed-authorization.md",
+      "id": "ssa-0/04-Research/AVM/source-pages/mcp-extension-enterprise-managed-authorization",
+      "lane": "research",
+      "theme": "sovereign-context",
+      "source_hash": "41e5ce96676b1bb392a2c02e8b7324250a368cc1b2839793b32624cfe1a15180"
+    },
+    {
+      "source_path": "04-Research/Agent-Loop-Engineering/Daily-Court-Deep-Gap-Notes.md",
+      "id": "ssa-0/04-Research/Agent-Loop-Engineering/Daily-Court-Deep-Gap-Notes",
+      "lane": "research",
+      "theme": "tfis-ssa",
+      "source_hash": "10045bfc9c5996ccfce2c2b32806a174e8587862edc1a0dead0727d55e5ba61b"
+    },
+    {
+      "source_path": "04-Research/Agent-Loop-Engineering/Implementation-Backlog.md",
+      "id": "ssa-0/04-Research/Agent-Loop-Engineering/Implementation-Backlog",
+      "lane": "research",
+      "theme": "tfis-ssa",
+      "source_hash": "b9fe6f886539b4f5566826389c4428070c95dd0d9eacc0c8b3b7fc8b99e663c6"
+    },
+    {
+      "source_path": "04-Research/Agent-Loop-Engineering/Loop-Engineering-Concept-Map.md",
+      "id": "ssa-0/04-Research/Agent-Loop-Engineering/Loop-Engineering-Concept-Map",
+      "lane": "research",
+      "theme": "tfis-ssa",
+      "source_hash": "9a20c78b1005a693a78937d840cf0c3adc5c6ffaaa0a0bb11ca57839516fdac8"
+    },
+    {
+      "source_path": "04-Research/Agent-Loop-Engineering/README.md",
+      "id": "ssa-0/04-Research/Agent-Loop-Engineering/README",
+      "lane": "research",
+      "theme": "tfis-ssa",
+      "source_hash": "0eb3c984904511aeea1157df4e12e9ee2b5a67de44c8db17904d5b97789fbaed"
+    },
+    {
+      "source_path": "04-Research/Agent-Loop-Engineering/TFIS-Daily-Court-Gap-Analysis.md",
+      "id": "ssa-0/04-Research/Agent-Loop-Engineering/TFIS-Daily-Court-Gap-Analysis",
+      "lane": "research",
+      "theme": "tfis-ssa",
+      "source_hash": "6ff7a58c8e3f6a157f437c1f8fd3680b9e3bbef234afcff3d362505f9c6ea255"
+    },
+    {
+      "source_path": "04-Research/DSOM/DSOM-Adoption-Spec.md",
+      "id": "ssa-0/04-Research/DSOM/DSOM-Adoption-Spec",
+      "lane": "research",
+      "theme": "tfis-ssa",
+      "source_hash": "dd205724312373f8589fb105002c4c20802df4be08bb9bdb08fcb939d149ba5f"
+    },
+    {
+      "source_path": "04-Research/DSOM/DSOM-Concept-Map.md",
+      "id": "ssa-0/04-Research/DSOM/DSOM-Concept-Map",
+      "lane": "research",
+      "theme": "tfis-ssa",
+      "source_hash": "330e88114e2cc31aed2951eba4c75ea9d7819025c41bdeda145497fff29da052"
+    },
+    {
+      "source_path": "04-Research/DSOM/DSOM-TFIS-SSA-Gap-Analysis.md",
+      "id": "ssa-0/04-Research/DSOM/DSOM-TFIS-SSA-Gap-Analysis",
+      "lane": "research",
+      "theme": "tfis-ssa",
+      "source_hash": "ec4be0e8b06d164dc3e877367991ef848196ec8ff315352a8175a08cd39e3676"
+    },
+    {
+      "source_path": "04-Research/DSOM/README.md",
+      "id": "ssa-0/04-Research/DSOM/README",
+      "lane": "research",
+      "theme": "tfis-ssa",
+      "source_hash": "cde170e408f5f0204bfa5f11c344a9c88621bec524d1773c8129062d94c75ee8"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/1.-sovereign-governance__ai-master-protocol.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/1.-sovereign-governance__ai-master-protocol",
+      "lane": "research",
+      "theme": "agent-operations",
+      "source_hash": "e83be6e99857b21917beea7fce27f1d1f133cac4493b45829738d6bb0f7d20ea"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/1.-sovereign-governance__crisp2-operational-strategy.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/1.-sovereign-governance__crisp2-operational-strategy",
+      "lane": "research",
+      "theme": "agent-operations",
+      "source_hash": "095b2f9f92224b8defeaab7932d94dddf6c9c04218343398f9ce13b84923c523"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/1.-sovereign-governance__digital-sovereignty-model.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/1.-sovereign-governance__digital-sovereignty-model",
+      "lane": "research",
+      "theme": "tfis-ssa",
+      "source_hash": "93f01213e897634501e63ca4336c21ea65d445678199841cf45075ed6f80a37f"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/1.-sovereign-governance__gitops-aiops-ansible-strategy.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/1.-sovereign-governance__gitops-aiops-ansible-strategy",
+      "lane": "research",
+      "theme": "agent-operations",
+      "source_hash": "4edc650c95d5563de177703ea41ac393b7fc5e6e5956939e18fcf224513759e3"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/1.-sovereign-governance__hub-and-spoke-model.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/1.-sovereign-governance__hub-and-spoke-model",
+      "lane": "research",
+      "theme": "governance-evidence",
+      "source_hash": "305958a8c034eb6261d90b65f36aeeaf81a4402e916fce327b63e36ba731f307"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/1.-sovereign-governance__itil-alignment.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/1.-sovereign-governance__itil-alignment",
+      "lane": "research",
+      "theme": "governance-evidence",
+      "source_hash": "e0fec57eaa93da45767d1fbe87d58b6c9bf7f84a5e5272777f1346c6f6ac0a71"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/1.-sovereign-governance__operational-guide.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/1.-sovereign-governance__operational-guide",
+      "lane": "research",
+      "theme": "agent-operations",
+      "source_hash": "4304abd543c57915136dcabb4b3187b52b7370f0c477452f8d2adf83f200fe33"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/1.-sovereign-governance__operational-sovereignty.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/1.-sovereign-governance__operational-sovereignty",
+      "lane": "research",
+      "theme": "tfis-ssa",
+      "source_hash": "937544a062a98017408e3e394466c6c7905c44d8e434198c88b9220d5fb74ca2"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/2.-operational-rituals__digital-sovereignty-operational-model-palace.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/2.-operational-rituals__digital-sovereignty-operational-model-palace",
+      "lane": "research",
+      "theme": "governance-evidence",
+      "source_hash": "ce198cbb801c028a10d33cb78c9a061c71ffdac71fc40e1eaac4436952718327"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/2.-operational-rituals__eod-ritual.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/2.-operational-rituals__eod-ritual",
+      "lane": "research",
+      "theme": "agent-operations",
+      "source_hash": "3dfe8681676464e91dfc4152688b1ca99f7e0b6d8ca276a54e1b18b640bac742"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/2.-operational-rituals__ritual-of-transition.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/2.-operational-rituals__ritual-of-transition",
+      "lane": "research",
+      "theme": "agent-operations",
+      "source_hash": "1a1615a988991990d8bf5dd55c6feca4f24aed38bd926af72661f9cfd1f4298f"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/2.-operational-rituals__sod-ritual.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/2.-operational-rituals__sod-ritual",
+      "lane": "research",
+      "theme": "agent-operations",
+      "source_hash": "67fb5135f80bd14b6c8d9817069b0bd60918f8ad1d009881af0ffdb9f2fd834e"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__ai-cognitive-twin-protocol.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__ai-cognitive-twin-protocol",
+      "lane": "research",
+      "theme": "tfis-ssa",
+      "source_hash": "201aa242657e8407def2a8525da71876b66862d959e104a0c537d9a5f85b0d1e"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__ai-response-template.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__ai-response-template",
+      "lane": "research",
+      "theme": "agent-operations",
+      "source_hash": "57aa72cd7627e91e398eb6ffc240009515f7cda0d1633020f36d27fb5657dc94"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__howto-adopt-dsom.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__howto-adopt-dsom",
+      "lane": "research",
+      "theme": "agent-operations",
+      "source_hash": "f5b403b383ec3974a2107f79d3df1d903b809b253057c6d527ae5d8871bb9c4c"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__howto-reanimate-session.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__howto-reanimate-session",
+      "lane": "research",
+      "theme": "agent-operations",
+      "source_hash": "831ca74063ab342797959f40dfcea47da9de57a2320d1b82a5e2ed708263304c"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__howto-upgrade-dsom.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__howto-upgrade-dsom",
+      "lane": "research",
+      "theme": "agent-operations",
+      "source_hash": "abc70aafe79282863647c70275263e3e9fdb04c681646f94adb0b74179f9aa42"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__human-handover-context.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__human-handover-context",
+      "lane": "research",
+      "theme": "agent-operations",
+      "source_hash": "ca5218dc9fc5f6428eb517d135bdfd8021ab453b243c835c77d3319e968d786b"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__multi-agent-protocols.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__multi-agent-protocols",
+      "lane": "research",
+      "theme": "agent-operations",
+      "source_hash": "b07dd5b6753f649cfaf86078160fbd5bdda37354c1effdc6ce89e845db230f2d"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__reanimation-prompt-template.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__reanimation-prompt-template",
+      "lane": "research",
+      "theme": "agent-operations",
+      "source_hash": "71366b7dee61df363d71faac8bdcc6531eae8410044c7ad532bd3faf76155945"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/5.-tools-and-automation-drivers__audit-pre-flight.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/5.-tools-and-automation-drivers__audit-pre-flight",
+      "lane": "research",
+      "theme": "governance-evidence",
+      "source_hash": "87820273bd45901706368a31525cbb779cd59b105f63a8f159a03111d00dde39"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/5.-tools-and-automation-drivers__privacy-guardian.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/5.-tools-and-automation-drivers__privacy-guardian",
+      "lane": "research",
+      "theme": "governance-evidence",
+      "source_hash": "7519d01f9261be2389a6349016616884d0a4f92b6b8c284b076f92492abad7da"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/7.-ansible-playbooks-dsom-operational__audit-preflight.yml-pre-flight-audit.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/7.-ansible-playbooks-dsom-operational__audit-preflight.yml-pre-flight-audit",
+      "lane": "research",
+      "theme": "governance-evidence",
+      "source_hash": "818df118e0f94faaaa5c4e62af3260ef587535c1f2a3f47e161ab4a3b3e43d3c"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/7.-ansible-playbooks-dsom-operational__privacy-scan.yml-privacy-guardian.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/7.-ansible-playbooks-dsom-operational__privacy-scan.yml-privacy-guardian",
+      "lane": "research",
+      "theme": "governance-evidence",
+      "source_hash": "44490a7378e45b26a6711e1544c1b19f5c0e15e4297c7433fc239f3a625317b7"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/dsom-automation-encyclopedia-docs-tools__howto-audit-pre-flight.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/dsom-automation-encyclopedia-docs-tools__howto-audit-pre-flight",
+      "lane": "research",
+      "theme": "governance-evidence",
+      "source_hash": "8860cf61e3e593359c49658c689d9c2ee9cf1ba7ee30b27073c1b6f11d203b31"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/palace-documentation__research-reasoning-gap.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/palace-documentation__research-reasoning-gap",
+      "lane": "research",
+      "theme": "governance-evidence",
+      "source_hash": "86332af8e9aea9fe8f2be8842ec75db1a90fa66033cd281223366e2dee852c95"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/palace-rooms-wing_dsom_core__room_brain_artifacts-brain-files.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/palace-rooms-wing_dsom_core__room_brain_artifacts-brain-files",
+      "lane": "research",
+      "theme": "sovereign-context",
+      "source_hash": "ef7bcc1f9130cf990c6e11773420dc648a2fd44e80a6143badb0d079231fffb8"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/palace-rooms-wing_dsom_core__room_clean_architecture-design-laws.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/palace-rooms-wing_dsom_core__room_clean_architecture-design-laws",
+      "lane": "research",
+      "theme": "governance-evidence",
+      "source_hash": "6507ce7dcef83c39e9d8dc2fa67e9150ec37320d0362b140f8dc07b88af94889"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/palace-rooms-wing_dsom_core__room_crisp_strategy-ai-interaction.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/palace-rooms-wing_dsom_core__room_crisp_strategy-ai-interaction",
+      "lane": "research",
+      "theme": "governance-evidence",
+      "source_hash": "24e4de5530f39d1cfa280bf86cb36c159eb22ec325c59a3a7e2d552fd5e6cdac"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/palace-rooms-wing_dsom_core__room_ledger-version-history.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/palace-rooms-wing_dsom_core__room_ledger-version-history",
+      "lane": "research",
+      "theme": "governance-evidence",
+      "source_hash": "4cd537fe29d261bb87830394f087909773eec677f565c55e4514d3816c0ca0e9"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/palace-rooms-wing_dsom_core__room_uncategorised-discoveries.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/palace-rooms-wing_dsom_core__room_uncategorised-discoveries",
+      "lane": "research",
+      "theme": "governance-evidence",
+      "source_hash": "b1d67c84dd643f2738906b7fa4cda3966cd932d691ddb6f5aa4717c2f79a3e56"
+    },
+    {
+      "source_path": "04-Research/OKF/Audy-OKF-Profile-Draft.md",
+      "id": "ssa-0/04-Research/OKF/Audy-OKF-Profile-Draft",
+      "lane": "research",
+      "theme": "sovereign-context",
+      "source_hash": "be2f89b4ec656ed2e2d97f2012d1de2e7ee7be9e32b54e187206c5a7bb9d54dc"
+    },
+    {
+      "source_path": "04-Research/OKF/OKF-Adoption-Spec.md",
+      "id": "ssa-0/04-Research/OKF/OKF-Adoption-Spec",
+      "lane": "research",
+      "theme": "sovereign-context",
+      "source_hash": "4940f4e2cb889f9fef31b38b0f159fc1f1b46eca18cb5bb7bb68d9b8ed1dbdaa"
+    },
+    {
+      "source_path": "04-Research/OKF/OKF-Audy-Vault-Gap-Analysis.md",
+      "id": "ssa-0/04-Research/OKF/OKF-Audy-Vault-Gap-Analysis",
+      "lane": "research",
+      "theme": "sovereign-context",
+      "source_hash": "8d0a4262373ff2d79853207bf19a70faf57d9bc5aba5db6246f89001a63fc828"
+    },
+    {
+      "source_path": "04-Research/OKF/OKF-Concept-Map.md",
+      "id": "ssa-0/04-Research/OKF/OKF-Concept-Map",
+      "lane": "research",
+      "theme": "sovereign-context",
+      "source_hash": "84185d7bea5bae0ea82c9d65c91a629e2c1449ae70003e84cd25aabbca27c78c"
+    },
+    {
+      "source_path": "04-Research/OKF/README.md",
+      "id": "ssa-0/04-Research/OKF/README",
+      "lane": "research",
+      "theme": "sovereign-context",
+      "source_hash": "d12205f00af2c6d91f95a26af9e495f18b24547accd9e609e49b86f434b74a82"
+    },
+    {
+      "source_path": "04-Research/OKF/source-pages/README.md",
+      "id": "ssa-0/04-Research/OKF/source-pages/README",
+      "lane": "research",
+      "theme": "sovereign-context",
+      "source_hash": "51cf2f82bc8dffa9d055975a306df2b0b8689867456da2c1dc2b904051783d17"
+    },
+    {
+      "source_path": "04-Research/OKF/source-pages/SPEC.md",
+      "id": "ssa-0/04-Research/OKF/source-pages/SPEC",
+      "lane": "research",
+      "theme": "sovereign-context",
+      "source_hash": "115f0fca94b3e8c53142222d7dda22d9d59d96b7e2121c734e1639fff773ab13"
+    },
+    {
+      "source_path": "AGENTS.md",
+      "id": "ssa-0/AGENTS",
+      "lane": "core",
+      "theme": null,
+      "source_hash": "8c8b071ac35377d04595a4d0e32ba43b7576e95e7aec95dd9c07f0f79c83a055"
+    },
+    {
+      "source_path": "OPERATIONS.md",
+      "id": "ssa-0/OPERATIONS",
+      "lane": "core",
+      "theme": null,
+      "source_hash": "79bf1c8b8cc9ee2c337613805f8e5ec5dcdb45c3b2bec74242b6c305c42dcd18"
+    }
+  ],
+  "rejected": [
+    {
+      "source_path": "04-Research/DSOM/source-pages/table-of-contents__contributing.md",
+      "lane": "research",
+      "theme": "governance-evidence",
+      "reason": "dirty"
+    }
+  ],
+  "diagnostic_codes": [
+    "source.excluded_dirty"
+  ],
+  "bundle_hash": "73541c4b94ce9df37f0a179d65009b67e98e9c9d3d9750e3ef7a6afb0bde188f",
+  "gates_passed": true
+}

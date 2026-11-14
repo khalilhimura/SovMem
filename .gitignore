@@ -1,0 +1,5 @@
+node_modules/
+/var/
+/sovmem/target/
+.env
+.env.*

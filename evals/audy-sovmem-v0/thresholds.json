@@ -1,0 +1,22 @@
+{
+  "schema_version": "sovmem-retrieval-thresholds-v1",
+  "evaluation_set": {
+    "id": "audy-sovmem-v0",
+    "golden_file": "evals/audy-sovmem-v0/golden.jsonl",
+    "golden_blake3": "f36c55ee4b1772274e5ab5c22156e660bf5efa146726ac9677e54d81cc1c7175",
+    "query_count": 25,
+    "relevant_documents_per_query": 1
+  },
+  "retrieval": {
+    "k": 5,
+    "macro_precision_at_k_minimum": "0.16",
+    "macro_recall_at_k_minimum": "0.80",
+    "minimum_queries_with_hit": 20
+  },
+  "approval": {
+    "human_approved": true,
+    "authority": "repository-owner",
+    "freeze_date": "2026-07-12",
+    "frozen_through_phase": "P2"
+  }
+}

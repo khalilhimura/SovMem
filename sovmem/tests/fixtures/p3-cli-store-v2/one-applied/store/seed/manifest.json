@@ -1,0 +1,781 @@
+{
+  "okf_version": "0.1",
+  "profile": "nous-sovmem-v0",
+  "nous_schema": "nous-ssa-context-v0",
+  "ssa_id": "ssa-0",
+  "ssa_profile": "audy-ssa0-v0",
+  "familiar_id": "audy",
+  "context_namespace": "ssa-0",
+  "vault_id": "audy-vault",
+  "exporter_version": "0.1.0",
+  "commit": "43824cfd9caed7b260aa442128fd1130ddb6e2ff",
+  "mode": "committed",
+  "working_tree_allowed": false,
+  "inclusion": [
+    "00-Index.md",
+    "01-Soul/Audy Himura.md",
+    "01-Soul/Identity.md",
+    "01-Soul/SSA Archetypes.md",
+    "01-Soul/TFIS Axioms.md",
+    "01-Soul/TFIS Canon.md",
+    "04-Research/AVM/AVM-Adoption-Spec.md",
+    "04-Research/AVM/AVM-OKF-Substrate-Investigation.md",
+    "04-Research/AVM/Enterprise-Managed-Authorization-Implications.md",
+    "04-Research/AVM/Nous-Graph-MCP-Precursor-Note.md",
+    "04-Research/AVM/README.md",
+    "04-Research/AVM/source-pages/blog-enterprise-managed-auth.md",
+    "04-Research/AVM/source-pages/mcp-extension-enterprise-managed-authorization.md",
+    "04-Research/Agent-Loop-Engineering/Daily-Court-Deep-Gap-Notes.md",
+    "04-Research/Agent-Loop-Engineering/Implementation-Backlog.md",
+    "04-Research/Agent-Loop-Engineering/Loop-Engineering-Concept-Map.md",
+    "04-Research/Agent-Loop-Engineering/README.md",
+    "04-Research/Agent-Loop-Engineering/TFIS-Daily-Court-Gap-Analysis.md",
+    "04-Research/DSOM/DSOM-Adoption-Spec.md",
+    "04-Research/DSOM/DSOM-Concept-Map.md",
+    "04-Research/DSOM/DSOM-TFIS-SSA-Gap-Analysis.md",
+    "04-Research/DSOM/README.md",
+    "04-Research/DSOM/source-pages/1.-sovereign-governance__ai-master-protocol.md",
+    "04-Research/DSOM/source-pages/1.-sovereign-governance__crisp2-operational-strategy.md",
+    "04-Research/DSOM/source-pages/1.-sovereign-governance__digital-sovereignty-model.md",
+    "04-Research/DSOM/source-pages/1.-sovereign-governance__gitops-aiops-ansible-strategy.md",
+    "04-Research/DSOM/source-pages/1.-sovereign-governance__hub-and-spoke-model.md",
+    "04-Research/DSOM/source-pages/1.-sovereign-governance__itil-alignment.md",
+    "04-Research/DSOM/source-pages/1.-sovereign-governance__operational-guide.md",
+    "04-Research/DSOM/source-pages/1.-sovereign-governance__operational-sovereignty.md",
+    "04-Research/DSOM/source-pages/2.-operational-rituals__digital-sovereignty-operational-model-palace.md",
+    "04-Research/DSOM/source-pages/2.-operational-rituals__eod-ritual.md",
+    "04-Research/DSOM/source-pages/2.-operational-rituals__ritual-of-transition.md",
+    "04-Research/DSOM/source-pages/2.-operational-rituals__sod-ritual.md",
+    "04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__ai-cognitive-twin-protocol.md",
+    "04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__ai-response-template.md",
+    "04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__howto-adopt-dsom.md",
+    "04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__howto-reanimate-session.md",
+    "04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__howto-upgrade-dsom.md",
+    "04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__human-handover-context.md",
+    "04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__multi-agent-protocols.md",
+    "04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__reanimation-prompt-template.md",
+    "04-Research/DSOM/source-pages/5.-tools-and-automation-drivers__audit-pre-flight.md",
+    "04-Research/DSOM/source-pages/5.-tools-and-automation-drivers__privacy-guardian.md",
+    "04-Research/DSOM/source-pages/7.-ansible-playbooks-dsom-operational__audit-preflight.yml-pre-flight-audit.md",
+    "04-Research/DSOM/source-pages/7.-ansible-playbooks-dsom-operational__privacy-scan.yml-privacy-guardian.md",
+    "04-Research/DSOM/source-pages/dsom-automation-encyclopedia-docs-tools__howto-audit-pre-flight.md",
+    "04-Research/DSOM/source-pages/palace-documentation__research-reasoning-gap.md",
+    "04-Research/DSOM/source-pages/palace-rooms-wing_dsom_core__room_brain_artifacts-brain-files.md",
+    "04-Research/DSOM/source-pages/palace-rooms-wing_dsom_core__room_clean_architecture-design-laws.md",
+    "04-Research/DSOM/source-pages/palace-rooms-wing_dsom_core__room_crisp_strategy-ai-interaction.md",
+    "04-Research/DSOM/source-pages/palace-rooms-wing_dsom_core__room_ledger-version-history.md",
+    "04-Research/DSOM/source-pages/palace-rooms-wing_dsom_core__room_uncategorised-discoveries.md",
+    "04-Research/DSOM/source-pages/table-of-contents__contributing.md",
+    "04-Research/OKF/Audy-OKF-Profile-Draft.md",
+    "04-Research/OKF/OKF-Adoption-Spec.md",
+    "04-Research/OKF/OKF-Audy-Vault-Gap-Analysis.md",
+    "04-Research/OKF/OKF-Concept-Map.md",
+    "04-Research/OKF/README.md",
+    "04-Research/OKF/source-pages/README.md",
+    "04-Research/OKF/source-pages/SPEC.md",
+    "AGENTS.md",
+    "OPERATIONS.md"
+  ],
+  "exclusion": [
+    "02-Memory/**",
+    "05-Daily/**",
+    "08-Hermes/**",
+    "09-Claude/**",
+    "10-Codex/**",
+    "11-Antigravity/**",
+    "loops/**"
+  ],
+  "excluded_sources": [
+    {
+      "source_path": "04-Research/DSOM/source-pages/table-of-contents__contributing.md",
+      "reason": "dirty"
+    }
+  ],
+  "sources": [
+    {
+      "source_path": "00-Index.md",
+      "hash": "642c86703b4a822ed3af6f4987b29051a760c95fe20015e097934defb05fd4f4"
+    },
+    {
+      "source_path": "01-Soul/Audy Himura.md",
+      "hash": "47ba4253bb97d0c4f6311e76c341aac6243dc7eb8ab6b0068ca684e897c032e3"
+    },
+    {
+      "source_path": "01-Soul/Identity.md",
+      "hash": "96b74cfd895e539f92692c722e6bdf7d4f9feff9019c13c222eaedb06d25d8ea"
+    },
+    {
+      "source_path": "01-Soul/SSA Archetypes.md",
+      "hash": "e860742fdf71d394d0017c47c9ff0ab16da537bb46b1747739f2e6fd47d9ab29"
+    },
+    {
+      "source_path": "01-Soul/TFIS Axioms.md",
+      "hash": "369a6b9a5db44cac32cd703f48b6e8e1b3c0de14df5a97d5934aaa44b6a5882f"
+    },
+    {
+      "source_path": "01-Soul/TFIS Canon.md",
+      "hash": "abe2dfd87d56536eca194182b9d634d82e5710f9d64824b06213a3786cf55f58"
+    },
+    {
+      "source_path": "04-Research/AVM/AVM-Adoption-Spec.md",
+      "hash": "5ac07d49a5c36a4ba3baab835f7d1e9ed50e1cd52a4c059f670f81163781eb81"
+    },
+    {
+      "source_path": "04-Research/AVM/AVM-OKF-Substrate-Investigation.md",
+      "hash": "f94062c804b3a65603ae352cbad07d7f93ebdcc93a8228bbbed6b17e1fba62b5"
+    },
+    {
+      "source_path": "04-Research/AVM/Enterprise-Managed-Authorization-Implications.md",
+      "hash": "a0efcb99bb8e9b09f41420b6e0fa0bfb291c1712e0a779c05d0d441d88af89ca"
+    },
+    {
+      "source_path": "04-Research/AVM/Nous-Graph-MCP-Precursor-Note.md",
+      "hash": "f8f3a3624e42669337d7cfa2511529e54742b873b5402aeea2feb0cd95b62a6b"
+    },
+    {
+      "source_path": "04-Research/AVM/README.md",
+      "hash": "8c4edda674854e2379074bba162ba659c4445cce839601af4b1399d025d6d799"
+    },
+    {
+      "source_path": "04-Research/AVM/source-pages/blog-enterprise-managed-auth.md",
+      "hash": "0298f0cb4b3a57c434de9d42e474165f858c56a7e9311326d07983f9882dedc6"
+    },
+    {
+      "source_path": "04-Research/AVM/source-pages/mcp-extension-enterprise-managed-authorization.md",
+      "hash": "41e5ce96676b1bb392a2c02e8b7324250a368cc1b2839793b32624cfe1a15180"
+    },
+    {
+      "source_path": "04-Research/Agent-Loop-Engineering/Daily-Court-Deep-Gap-Notes.md",
+      "hash": "10045bfc9c5996ccfce2c2b32806a174e8587862edc1a0dead0727d55e5ba61b"
+    },
+    {
+      "source_path": "04-Research/Agent-Loop-Engineering/Implementation-Backlog.md",
+      "hash": "b9fe6f886539b4f5566826389c4428070c95dd0d9eacc0c8b3b7fc8b99e663c6"
+    },
+    {
+      "source_path": "04-Research/Agent-Loop-Engineering/Loop-Engineering-Concept-Map.md",
+      "hash": "9a20c78b1005a693a78937d840cf0c3adc5c6ffaaa0a0bb11ca57839516fdac8"
+    },
+    {
+      "source_path": "04-Research/Agent-Loop-Engineering/README.md",
+      "hash": "0eb3c984904511aeea1157df4e12e9ee2b5a67de44c8db17904d5b97789fbaed"
+    },
+    {
+      "source_path": "04-Research/Agent-Loop-Engineering/TFIS-Daily-Court-Gap-Analysis.md",
+      "hash": "6ff7a58c8e3f6a157f437c1f8fd3680b9e3bbef234afcff3d362505f9c6ea255"
+    },
+    {
+      "source_path": "04-Research/DSOM/DSOM-Adoption-Spec.md",
+      "hash": "dd205724312373f8589fb105002c4c20802df4be08bb9bdb08fcb939d149ba5f"
+    },
+    {
+      "source_path": "04-Research/DSOM/DSOM-Concept-Map.md",
+      "hash": "330e88114e2cc31aed2951eba4c75ea9d7819025c41bdeda145497fff29da052"
+    },
+    {
+      "source_path": "04-Research/DSOM/DSOM-TFIS-SSA-Gap-Analysis.md",
+      "hash": "ec4be0e8b06d164dc3e877367991ef848196ec8ff315352a8175a08cd39e3676"
+    },
+    {
+      "source_path": "04-Research/DSOM/README.md",
+      "hash": "cde170e408f5f0204bfa5f11c344a9c88621bec524d1773c8129062d94c75ee8"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/1.-sovereign-governance__ai-master-protocol.md",
+      "hash": "e83be6e99857b21917beea7fce27f1d1f133cac4493b45829738d6bb0f7d20ea"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/1.-sovereign-governance__crisp2-operational-strategy.md",
+      "hash": "095b2f9f92224b8defeaab7932d94dddf6c9c04218343398f9ce13b84923c523"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/1.-sovereign-governance__digital-sovereignty-model.md",
+      "hash": "93f01213e897634501e63ca4336c21ea65d445678199841cf45075ed6f80a37f"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/1.-sovereign-governance__gitops-aiops-ansible-strategy.md",
+      "hash": "4edc650c95d5563de177703ea41ac393b7fc5e6e5956939e18fcf224513759e3"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/1.-sovereign-governance__hub-and-spoke-model.md",
+      "hash": "305958a8c034eb6261d90b65f36aeeaf81a4402e916fce327b63e36ba731f307"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/1.-sovereign-governance__itil-alignment.md",
+      "hash": "e0fec57eaa93da45767d1fbe87d58b6c9bf7f84a5e5272777f1346c6f6ac0a71"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/1.-sovereign-governance__operational-guide.md",
+      "hash": "4304abd543c57915136dcabb4b3187b52b7370f0c477452f8d2adf83f200fe33"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/1.-sovereign-governance__operational-sovereignty.md",
+      "hash": "937544a062a98017408e3e394466c6c7905c44d8e434198c88b9220d5fb74ca2"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/2.-operational-rituals__digital-sovereignty-operational-model-palace.md",
+      "hash": "ce198cbb801c028a10d33cb78c9a061c71ffdac71fc40e1eaac4436952718327"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/2.-operational-rituals__eod-ritual.md",
+      "hash": "3dfe8681676464e91dfc4152688b1ca99f7e0b6d8ca276a54e1b18b640bac742"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/2.-operational-rituals__ritual-of-transition.md",
+      "hash": "1a1615a988991990d8bf5dd55c6feca4f24aed38bd926af72661f9cfd1f4298f"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/2.-operational-rituals__sod-ritual.md",
+      "hash": "67fb5135f80bd14b6c8d9817069b0bd60918f8ad1d009881af0ffdb9f2fd834e"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__ai-cognitive-twin-protocol.md",
+      "hash": "201aa242657e8407def2a8525da71876b66862d959e104a0c537d9a5f85b0d1e"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__ai-response-template.md",
+      "hash": "57aa72cd7627e91e398eb6ffc240009515f7cda0d1633020f36d27fb5657dc94"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__howto-adopt-dsom.md",
+      "hash": "f5b403b383ec3974a2107f79d3df1d903b809b253057c6d527ae5d8871bb9c4c"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__howto-reanimate-session.md",
+      "hash": "831ca74063ab342797959f40dfcea47da9de57a2320d1b82a5e2ed708263304c"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__howto-upgrade-dsom.md",
+      "hash": "abc70aafe79282863647c70275263e3e9fdb04c681646f94adb0b74179f9aa42"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__human-handover-context.md",
+      "hash": "ca5218dc9fc5f6428eb517d135bdfd8021ab453b243c835c77d3319e968d786b"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__multi-agent-protocols.md",
+      "hash": "b07dd5b6753f649cfaf86078160fbd5bdda37354c1effdc6ce89e845db230f2d"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__reanimation-prompt-template.md",
+      "hash": "71366b7dee61df363d71faac8bdcc6531eae8410044c7ad532bd3faf76155945"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/5.-tools-and-automation-drivers__audit-pre-flight.md",
+      "hash": "87820273bd45901706368a31525cbb779cd59b105f63a8f159a03111d00dde39"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/5.-tools-and-automation-drivers__privacy-guardian.md",
+      "hash": "7519d01f9261be2389a6349016616884d0a4f92b6b8c284b076f92492abad7da"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/7.-ansible-playbooks-dsom-operational__audit-preflight.yml-pre-flight-audit.md",
+      "hash": "818df118e0f94faaaa5c4e62af3260ef587535c1f2a3f47e161ab4a3b3e43d3c"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/7.-ansible-playbooks-dsom-operational__privacy-scan.yml-privacy-guardian.md",
+      "hash": "44490a7378e45b26a6711e1544c1b19f5c0e15e4297c7433fc239f3a625317b7"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/dsom-automation-encyclopedia-docs-tools__howto-audit-pre-flight.md",
+      "hash": "8860cf61e3e593359c49658c689d9c2ee9cf1ba7ee30b27073c1b6f11d203b31"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/palace-documentation__research-reasoning-gap.md",
+      "hash": "86332af8e9aea9fe8f2be8842ec75db1a90fa66033cd281223366e2dee852c95"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/palace-rooms-wing_dsom_core__room_brain_artifacts-brain-files.md",
+      "hash": "ef7bcc1f9130cf990c6e11773420dc648a2fd44e80a6143badb0d079231fffb8"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/palace-rooms-wing_dsom_core__room_clean_architecture-design-laws.md",
+      "hash": "6507ce7dcef83c39e9d8dc2fa67e9150ec37320d0362b140f8dc07b88af94889"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/palace-rooms-wing_dsom_core__room_crisp_strategy-ai-interaction.md",
+      "hash": "24e4de5530f39d1cfa280bf86cb36c159eb22ec325c59a3a7e2d552fd5e6cdac"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/palace-rooms-wing_dsom_core__room_ledger-version-history.md",
+      "hash": "4cd537fe29d261bb87830394f087909773eec677f565c55e4514d3816c0ca0e9"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/palace-rooms-wing_dsom_core__room_uncategorised-discoveries.md",
+      "hash": "b1d67c84dd643f2738906b7fa4cda3966cd932d691ddb6f5aa4717c2f79a3e56"
+    },
+    {
+      "source_path": "04-Research/OKF/Audy-OKF-Profile-Draft.md",
+      "hash": "be2f89b4ec656ed2e2d97f2012d1de2e7ee7be9e32b54e187206c5a7bb9d54dc"
+    },
+    {
+      "source_path": "04-Research/OKF/OKF-Adoption-Spec.md",
+      "hash": "4940f4e2cb889f9fef31b38b0f159fc1f1b46eca18cb5bb7bb68d9b8ed1dbdaa"
+    },
+    {
+      "source_path": "04-Research/OKF/OKF-Audy-Vault-Gap-Analysis.md",
+      "hash": "8d0a4262373ff2d79853207bf19a70faf57d9bc5aba5db6246f89001a63fc828"
+    },
+    {
+      "source_path": "04-Research/OKF/OKF-Concept-Map.md",
+      "hash": "84185d7bea5bae0ea82c9d65c91a629e2c1449ae70003e84cd25aabbca27c78c"
+    },
+    {
+      "source_path": "04-Research/OKF/README.md",
+      "hash": "d12205f00af2c6d91f95a26af9e495f18b24547accd9e609e49b86f434b74a82"
+    },
+    {
+      "source_path": "04-Research/OKF/source-pages/README.md",
+      "hash": "51cf2f82bc8dffa9d055975a306df2b0b8689867456da2c1dc2b904051783d17"
+    },
+    {
+      "source_path": "04-Research/OKF/source-pages/SPEC.md",
+      "hash": "115f0fca94b3e8c53142222d7dda22d9d59d96b7e2121c734e1639fff773ab13"
+    },
+    {
+      "source_path": "AGENTS.md",
+      "hash": "8c8b071ac35377d04595a4d0e32ba43b7576e95e7aec95dd9c07f0f79c83a055"
+    },
+    {
+      "source_path": "OPERATIONS.md",
+      "hash": "79bf1c8b8cc9ee2c337613805f8e5ec5dcdb45c3b2bec74242b6c305c42dcd18"
+    }
+  ],
+  "documents": [
+    {
+      "source_path": "00-Index.md",
+      "output_path": "bundle/00-Index.md",
+      "id": "ssa-0/00-Index",
+      "resource": "vault://ssa-0/00-Index",
+      "hash": "5608aead6cc37f67bd0436eb11c94a08d7c310672e10ee621b44e6d4ec6039de"
+    },
+    {
+      "source_path": "01-Soul/Audy Himura.md",
+      "output_path": "bundle/01-Soul/Audy Himura.md",
+      "id": "ssa-0/01-Soul/Audy%20Himura",
+      "resource": "vault://ssa-0/01-Soul/Audy%20Himura",
+      "hash": "738da3f93dbcc19b548d68ac109c4c51a0ff22c1a8b286d11d245fdbc3e988df"
+    },
+    {
+      "source_path": "01-Soul/Identity.md",
+      "output_path": "bundle/01-Soul/Identity.md",
+      "id": "ssa-0/01-Soul/Identity",
+      "resource": "vault://ssa-0/01-Soul/Identity",
+      "hash": "548bd15c8049da048ca51619917ee250f47fa4f22d8417d2a7f4088a208dfc38"
+    },
+    {
+      "source_path": "01-Soul/SSA Archetypes.md",
+      "output_path": "bundle/01-Soul/SSA Archetypes.md",
+      "id": "ssa-0/01-Soul/SSA%20Archetypes",
+      "resource": "vault://ssa-0/01-Soul/SSA%20Archetypes",
+      "hash": "e3f779ffacc2f2f00952c753dd79dccef202b7696d5f4fc1fc753900b3ae6d6d"
+    },
+    {
+      "source_path": "01-Soul/TFIS Axioms.md",
+      "output_path": "bundle/01-Soul/TFIS Axioms.md",
+      "id": "ssa-0/01-Soul/TFIS%20Axioms",
+      "resource": "vault://ssa-0/01-Soul/TFIS%20Axioms",
+      "hash": "657150390f0c9e466e60491d92ffa2b868ec1c83f2dbbcda45aec5552313ca66"
+    },
+    {
+      "source_path": "01-Soul/TFIS Canon.md",
+      "output_path": "bundle/01-Soul/TFIS Canon.md",
+      "id": "ssa-0/01-Soul/TFIS%20Canon",
+      "resource": "vault://ssa-0/01-Soul/TFIS%20Canon",
+      "hash": "862a7c305caf32bccf35f8d953f7b6750d8e2b54ae561e85eaf0c916c9c444b4"
+    },
+    {
+      "source_path": "04-Research/AVM/AVM-Adoption-Spec.md",
+      "output_path": "bundle/04-Research/AVM/AVM-Adoption-Spec.md",
+      "id": "ssa-0/04-Research/AVM/AVM-Adoption-Spec",
+      "resource": "vault://ssa-0/04-Research/AVM/AVM-Adoption-Spec",
+      "hash": "048f9e275bcd8a45a5b9bede954d1de3ef0efbfc2e175a1a5c8b903b863edb4a"
+    },
+    {
+      "source_path": "04-Research/AVM/AVM-OKF-Substrate-Investigation.md",
+      "output_path": "bundle/04-Research/AVM/AVM-OKF-Substrate-Investigation.md",
+      "id": "ssa-0/04-Research/AVM/AVM-OKF-Substrate-Investigation",
+      "resource": "vault://ssa-0/04-Research/AVM/AVM-OKF-Substrate-Investigation",
+      "hash": "68a3f89a3b6b72ef49852e0ee1d60e38161dd691fd9238cd83bb283b17673576"
+    },
+    {
+      "source_path": "04-Research/AVM/Enterprise-Managed-Authorization-Implications.md",
+      "output_path": "bundle/04-Research/AVM/Enterprise-Managed-Authorization-Implications.md",
+      "id": "ssa-0/04-Research/AVM/Enterprise-Managed-Authorization-Implications",
+      "resource": "vault://ssa-0/04-Research/AVM/Enterprise-Managed-Authorization-Implications",
+      "hash": "f84ad03dfd75b9a978e54d284eadad145bfb63c852c507fbfebcefdeef058189"
+    },
+    {
+      "source_path": "04-Research/AVM/Nous-Graph-MCP-Precursor-Note.md",
+      "output_path": "bundle/04-Research/AVM/Nous-Graph-MCP-Precursor-Note.md",
+      "id": "ssa-0/04-Research/AVM/Nous-Graph-MCP-Precursor-Note",
+      "resource": "vault://ssa-0/04-Research/AVM/Nous-Graph-MCP-Precursor-Note",
+      "hash": "682e14ac4b8a6635122f83ca871b64b8b56838d2cc26ebf4cd499e0c3e913e7e"
+    },
+    {
+      "source_path": "04-Research/AVM/README.md",
+      "output_path": "bundle/04-Research/AVM/README.md",
+      "id": "ssa-0/04-Research/AVM/README",
+      "resource": "vault://ssa-0/04-Research/AVM/README",
+      "hash": "4abf508b1ffb5c75d68b0f6ea261f5eb26464581d1638d3d5b4a34f795e9478a"
+    },
+    {
+      "source_path": "04-Research/AVM/source-pages/blog-enterprise-managed-auth.md",
+      "output_path": "bundle/04-Research/AVM/source-pages/blog-enterprise-managed-auth.md",
+      "id": "ssa-0/04-Research/AVM/source-pages/blog-enterprise-managed-auth",
+      "resource": "vault://ssa-0/04-Research/AVM/source-pages/blog-enterprise-managed-auth",
+      "hash": "01240c8473e2b30ed0c363a1bb739244179b96e8f263369abba0856d7c88e56c"
+    },
+    {
+      "source_path": "04-Research/AVM/source-pages/mcp-extension-enterprise-managed-authorization.md",
+      "output_path": "bundle/04-Research/AVM/source-pages/mcp-extension-enterprise-managed-authorization.md",
+      "id": "ssa-0/04-Research/AVM/source-pages/mcp-extension-enterprise-managed-authorization",
+      "resource": "vault://ssa-0/04-Research/AVM/source-pages/mcp-extension-enterprise-managed-authorization",
+      "hash": "94bc29537cbdb5affa28d75a04d460c5a782ce3b1b92a343639b5f56fc5dfbf2"
+    },
+    {
+      "source_path": "04-Research/Agent-Loop-Engineering/Daily-Court-Deep-Gap-Notes.md",
+      "output_path": "bundle/04-Research/Agent-Loop-Engineering/Daily-Court-Deep-Gap-Notes.md",
+      "id": "ssa-0/04-Research/Agent-Loop-Engineering/Daily-Court-Deep-Gap-Notes",
+      "resource": "vault://ssa-0/04-Research/Agent-Loop-Engineering/Daily-Court-Deep-Gap-Notes",
+      "hash": "ddda68a5616377494cce19127ed683543236229c29894d4b7b0c96456a90e057"
+    },
+    {
+      "source_path": "04-Research/Agent-Loop-Engineering/Implementation-Backlog.md",
+      "output_path": "bundle/04-Research/Agent-Loop-Engineering/Implementation-Backlog.md",
+      "id": "ssa-0/04-Research/Agent-Loop-Engineering/Implementation-Backlog",
+      "resource": "vault://ssa-0/04-Research/Agent-Loop-Engineering/Implementation-Backlog",
+      "hash": "602aa78cb0b7f6b9e4a2fe4533ec297456a73d960d96f54e302b5ebd2ebb0659"
+    },
+    {
+      "source_path": "04-Research/Agent-Loop-Engineering/Loop-Engineering-Concept-Map.md",
+      "output_path": "bundle/04-Research/Agent-Loop-Engineering/Loop-Engineering-Concept-Map.md",
+      "id": "ssa-0/04-Research/Agent-Loop-Engineering/Loop-Engineering-Concept-Map",
+      "resource": "vault://ssa-0/04-Research/Agent-Loop-Engineering/Loop-Engineering-Concept-Map",
+      "hash": "2d88e14938dd41f5e849f16399dc89fb6a206ea23b3edc7168f4be7101fa4a65"
+    },
+    {
+      "source_path": "04-Research/Agent-Loop-Engineering/README.md",
+      "output_path": "bundle/04-Research/Agent-Loop-Engineering/README.md",
+      "id": "ssa-0/04-Research/Agent-Loop-Engineering/README",
+      "resource": "vault://ssa-0/04-Research/Agent-Loop-Engineering/README",
+      "hash": "662e7decda608e11ae9ff50d01c3ca1038b8d9ea247ab6ba985fb64c453db320"
+    },
+    {
+      "source_path": "04-Research/Agent-Loop-Engineering/TFIS-Daily-Court-Gap-Analysis.md",
+      "output_path": "bundle/04-Research/Agent-Loop-Engineering/TFIS-Daily-Court-Gap-Analysis.md",
+      "id": "ssa-0/04-Research/Agent-Loop-Engineering/TFIS-Daily-Court-Gap-Analysis",
+      "resource": "vault://ssa-0/04-Research/Agent-Loop-Engineering/TFIS-Daily-Court-Gap-Analysis",
+      "hash": "3974a8df7cfe4da2bb4fb3489a70249be37d0ea1a6dc5269ab704bebc8029efb"
+    },
+    {
+      "source_path": "04-Research/DSOM/DSOM-Adoption-Spec.md",
+      "output_path": "bundle/04-Research/DSOM/DSOM-Adoption-Spec.md",
+      "id": "ssa-0/04-Research/DSOM/DSOM-Adoption-Spec",
+      "resource": "vault://ssa-0/04-Research/DSOM/DSOM-Adoption-Spec",
+      "hash": "8eeb495ba08931a87cbfbb275f1568bea9b427d1a92ee663ee08042d0facee6e"
+    },
+    {
+      "source_path": "04-Research/DSOM/DSOM-Concept-Map.md",
+      "output_path": "bundle/04-Research/DSOM/DSOM-Concept-Map.md",
+      "id": "ssa-0/04-Research/DSOM/DSOM-Concept-Map",
+      "resource": "vault://ssa-0/04-Research/DSOM/DSOM-Concept-Map",
+      "hash": "e90957a98bc13c898c8e6623cd27633a9c6d79dc75493e917cdf1239f0452eea"
+    },
+    {
+      "source_path": "04-Research/DSOM/DSOM-TFIS-SSA-Gap-Analysis.md",
+      "output_path": "bundle/04-Research/DSOM/DSOM-TFIS-SSA-Gap-Analysis.md",
+      "id": "ssa-0/04-Research/DSOM/DSOM-TFIS-SSA-Gap-Analysis",
+      "resource": "vault://ssa-0/04-Research/DSOM/DSOM-TFIS-SSA-Gap-Analysis",
+      "hash": "29505d127f028152aeb37acff7316f6781aa490c1a89b1070288de7f90f6a1ed"
+    },
+    {
+      "source_path": "04-Research/DSOM/README.md",
+      "output_path": "bundle/04-Research/DSOM/README.md",
+      "id": "ssa-0/04-Research/DSOM/README",
+      "resource": "vault://ssa-0/04-Research/DSOM/README",
+      "hash": "d3d15a1b22f4373c64c01e59c97f1ccbaf2d58b76579c638d5b6453cc0931833"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/1.-sovereign-governance__ai-master-protocol.md",
+      "output_path": "bundle/04-Research/DSOM/source-pages/1.-sovereign-governance__ai-master-protocol.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/1.-sovereign-governance__ai-master-protocol",
+      "resource": "vault://ssa-0/04-Research/DSOM/source-pages/1.-sovereign-governance__ai-master-protocol",
+      "hash": "b9c6db0e7efdeff0ec88c3118c1e4635df92090ba9225211734b39662f553e93"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/1.-sovereign-governance__crisp2-operational-strategy.md",
+      "output_path": "bundle/04-Research/DSOM/source-pages/1.-sovereign-governance__crisp2-operational-strategy.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/1.-sovereign-governance__crisp2-operational-strategy",
+      "resource": "vault://ssa-0/04-Research/DSOM/source-pages/1.-sovereign-governance__crisp2-operational-strategy",
+      "hash": "e0b85b96ed5408821245c9c4e6fd5616abc5603d0c1ea9812a5f1038d591a4a2"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/1.-sovereign-governance__digital-sovereignty-model.md",
+      "output_path": "bundle/04-Research/DSOM/source-pages/1.-sovereign-governance__digital-sovereignty-model.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/1.-sovereign-governance__digital-sovereignty-model",
+      "resource": "vault://ssa-0/04-Research/DSOM/source-pages/1.-sovereign-governance__digital-sovereignty-model",
+      "hash": "e5bc812a00070ecaa67707e2f1719e4acf98b0a885045d1a496a3da948c2e756"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/1.-sovereign-governance__gitops-aiops-ansible-strategy.md",
+      "output_path": "bundle/04-Research/DSOM/source-pages/1.-sovereign-governance__gitops-aiops-ansible-strategy.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/1.-sovereign-governance__gitops-aiops-ansible-strategy",
+      "resource": "vault://ssa-0/04-Research/DSOM/source-pages/1.-sovereign-governance__gitops-aiops-ansible-strategy",
+      "hash": "f201eeff30932c9633d98dde48aeccc149421e5e2e175c862e8d19571c1d3c9a"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/1.-sovereign-governance__hub-and-spoke-model.md",
+      "output_path": "bundle/04-Research/DSOM/source-pages/1.-sovereign-governance__hub-and-spoke-model.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/1.-sovereign-governance__hub-and-spoke-model",
+      "resource": "vault://ssa-0/04-Research/DSOM/source-pages/1.-sovereign-governance__hub-and-spoke-model",
+      "hash": "aa6c6d3365bb86f7e46a288187d41217d5382b013aff1588fb17053898e87d9d"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/1.-sovereign-governance__itil-alignment.md",
+      "output_path": "bundle/04-Research/DSOM/source-pages/1.-sovereign-governance__itil-alignment.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/1.-sovereign-governance__itil-alignment",
+      "resource": "vault://ssa-0/04-Research/DSOM/source-pages/1.-sovereign-governance__itil-alignment",
+      "hash": "ddc97b2e7d39bad48178a9490cf48443ad4b090aa2fc1c55fc69054f04a35a2b"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/1.-sovereign-governance__operational-guide.md",
+      "output_path": "bundle/04-Research/DSOM/source-pages/1.-sovereign-governance__operational-guide.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/1.-sovereign-governance__operational-guide",
+      "resource": "vault://ssa-0/04-Research/DSOM/source-pages/1.-sovereign-governance__operational-guide",
+      "hash": "e4cd623bb7b7afcc64b24d9add9d4f1ebba7a32bc89d2c760a8dcb827a2ad1c0"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/1.-sovereign-governance__operational-sovereignty.md",
+      "output_path": "bundle/04-Research/DSOM/source-pages/1.-sovereign-governance__operational-sovereignty.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/1.-sovereign-governance__operational-sovereignty",
+      "resource": "vault://ssa-0/04-Research/DSOM/source-pages/1.-sovereign-governance__operational-sovereignty",
+      "hash": "c3a390044a905a2f41e1253917eca41dd0b669a87de221ac2b8244f93cd112d4"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/2.-operational-rituals__digital-sovereignty-operational-model-palace.md",
+      "output_path": "bundle/04-Research/DSOM/source-pages/2.-operational-rituals__digital-sovereignty-operational-model-palace.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/2.-operational-rituals__digital-sovereignty-operational-model-palace",
+      "resource": "vault://ssa-0/04-Research/DSOM/source-pages/2.-operational-rituals__digital-sovereignty-operational-model-palace",
+      "hash": "22e1afc0cc4ff5c58498f2f0c90b6886554bb7caa0a4c0ca15836e96561b32cd"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/2.-operational-rituals__eod-ritual.md",
+      "output_path": "bundle/04-Research/DSOM/source-pages/2.-operational-rituals__eod-ritual.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/2.-operational-rituals__eod-ritual",
+      "resource": "vault://ssa-0/04-Research/DSOM/source-pages/2.-operational-rituals__eod-ritual",
+      "hash": "f5a0d301681b4c59c8dcb3f879b0bebac12dcc7ff8baeb4987320dbd82aacb54"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/2.-operational-rituals__ritual-of-transition.md",
+      "output_path": "bundle/04-Research/DSOM/source-pages/2.-operational-rituals__ritual-of-transition.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/2.-operational-rituals__ritual-of-transition",
+      "resource": "vault://ssa-0/04-Research/DSOM/source-pages/2.-operational-rituals__ritual-of-transition",
+      "hash": "aebe958221d78dfdb99c2928e4313118fa8c0361002906bc0f100e07400a90af"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/2.-operational-rituals__sod-ritual.md",
+      "output_path": "bundle/04-Research/DSOM/source-pages/2.-operational-rituals__sod-ritual.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/2.-operational-rituals__sod-ritual",
+      "resource": "vault://ssa-0/04-Research/DSOM/source-pages/2.-operational-rituals__sod-ritual",
+      "hash": "f507a44c1bedd166665da07c5e1a6113e168783c896f738997aa2198dcbd846b"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__ai-cognitive-twin-protocol.md",
+      "output_path": "bundle/04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__ai-cognitive-twin-protocol.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__ai-cognitive-twin-protocol",
+      "resource": "vault://ssa-0/04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__ai-cognitive-twin-protocol",
+      "hash": "4abaf721752f2152524c1c41ffbfb37363dde9a027eb912657d5188d4e33e7d1"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__ai-response-template.md",
+      "output_path": "bundle/04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__ai-response-template.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__ai-response-template",
+      "resource": "vault://ssa-0/04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__ai-response-template",
+      "hash": "4ac54a55266dd90710f721461c79695cdad5ad07aa7ec0d9b95f630bc066af41"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__howto-adopt-dsom.md",
+      "output_path": "bundle/04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__howto-adopt-dsom.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__howto-adopt-dsom",
+      "resource": "vault://ssa-0/04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__howto-adopt-dsom",
+      "hash": "c8943085bc3a9e0ea6643912a3be6576d5db6a6e260ebca8c466d7343e2e7d1c"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__howto-reanimate-session.md",
+      "output_path": "bundle/04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__howto-reanimate-session.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__howto-reanimate-session",
+      "resource": "vault://ssa-0/04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__howto-reanimate-session",
+      "hash": "bd08cd9ca2956132ea190b1d6fc8e62eeab87a6d05bc9112dbccb9c46f660916"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__howto-upgrade-dsom.md",
+      "output_path": "bundle/04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__howto-upgrade-dsom.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__howto-upgrade-dsom",
+      "resource": "vault://ssa-0/04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__howto-upgrade-dsom",
+      "hash": "68dd736bd7e573ba44715fbfaf12a490a7e4215312f74119a192f91108c035f1"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__human-handover-context.md",
+      "output_path": "bundle/04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__human-handover-context.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__human-handover-context",
+      "resource": "vault://ssa-0/04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__human-handover-context",
+      "hash": "10afd7f08f5285dd832a18437807a96fa90b6d9c8767d3f6362eeb8443df521d"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__multi-agent-protocols.md",
+      "output_path": "bundle/04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__multi-agent-protocols.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__multi-agent-protocols",
+      "resource": "vault://ssa-0/04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__multi-agent-protocols",
+      "hash": "289eda5ac413c43a937a0eb70f8d258797745ec065c28a63237658b94d2fd0e6"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__reanimation-prompt-template.md",
+      "output_path": "bundle/04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__reanimation-prompt-template.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__reanimation-prompt-template",
+      "resource": "vault://ssa-0/04-Research/DSOM/source-pages/4.-ai-and-agent-protocols__reanimation-prompt-template",
+      "hash": "0f3ebdff4ac057a258126cf5d986389c68d7a22dfc04bec02e1a70862c146816"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/5.-tools-and-automation-drivers__audit-pre-flight.md",
+      "output_path": "bundle/04-Research/DSOM/source-pages/5.-tools-and-automation-drivers__audit-pre-flight.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/5.-tools-and-automation-drivers__audit-pre-flight",
+      "resource": "vault://ssa-0/04-Research/DSOM/source-pages/5.-tools-and-automation-drivers__audit-pre-flight",
+      "hash": "11389bb02cb2dc868369abeec7326b1a0a5261f55516fc52ca6841577be96f48"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/5.-tools-and-automation-drivers__privacy-guardian.md",
+      "output_path": "bundle/04-Research/DSOM/source-pages/5.-tools-and-automation-drivers__privacy-guardian.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/5.-tools-and-automation-drivers__privacy-guardian",
+      "resource": "vault://ssa-0/04-Research/DSOM/source-pages/5.-tools-and-automation-drivers__privacy-guardian",
+      "hash": "4390be6ba1521216772143ad71fdc28870c5cfc08f3f357b43fb46c016ce2c30"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/7.-ansible-playbooks-dsom-operational__audit-preflight.yml-pre-flight-audit.md",
+      "output_path": "bundle/04-Research/DSOM/source-pages/7.-ansible-playbooks-dsom-operational__audit-preflight.yml-pre-flight-audit.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/7.-ansible-playbooks-dsom-operational__audit-preflight.yml-pre-flight-audit",
+      "resource": "vault://ssa-0/04-Research/DSOM/source-pages/7.-ansible-playbooks-dsom-operational__audit-preflight.yml-pre-flight-audit",
+      "hash": "cdd242c66f863c4cdaf4d5ef4ad645fb56edc3e470ffb9c3bdd071c834959d90"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/7.-ansible-playbooks-dsom-operational__privacy-scan.yml-privacy-guardian.md",
+      "output_path": "bundle/04-Research/DSOM/source-pages/7.-ansible-playbooks-dsom-operational__privacy-scan.yml-privacy-guardian.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/7.-ansible-playbooks-dsom-operational__privacy-scan.yml-privacy-guardian",
+      "resource": "vault://ssa-0/04-Research/DSOM/source-pages/7.-ansible-playbooks-dsom-operational__privacy-scan.yml-privacy-guardian",
+      "hash": "d1994b2d81a43d015c15d806190f8e6ee8a1c21e7d306f5dd5ba470fa5b31b99"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/dsom-automation-encyclopedia-docs-tools__howto-audit-pre-flight.md",
+      "output_path": "bundle/04-Research/DSOM/source-pages/dsom-automation-encyclopedia-docs-tools__howto-audit-pre-flight.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/dsom-automation-encyclopedia-docs-tools__howto-audit-pre-flight",
+      "resource": "vault://ssa-0/04-Research/DSOM/source-pages/dsom-automation-encyclopedia-docs-tools__howto-audit-pre-flight",
+      "hash": "584012e877e2ed6c5f3c4a1fb4e4e644bee4a94b7dc875168817ee8d479832a1"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/palace-documentation__research-reasoning-gap.md",
+      "output_path": "bundle/04-Research/DSOM/source-pages/palace-documentation__research-reasoning-gap.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/palace-documentation__research-reasoning-gap",
+      "resource": "vault://ssa-0/04-Research/DSOM/source-pages/palace-documentation__research-reasoning-gap",
+      "hash": "68f136cc6d31d425b0924e513962b94261df2913ff937b1acb37eb4ef65b00d2"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/palace-rooms-wing_dsom_core__room_brain_artifacts-brain-files.md",
+      "output_path": "bundle/04-Research/DSOM/source-pages/palace-rooms-wing_dsom_core__room_brain_artifacts-brain-files.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/palace-rooms-wing_dsom_core__room_brain_artifacts-brain-files",
+      "resource": "vault://ssa-0/04-Research/DSOM/source-pages/palace-rooms-wing_dsom_core__room_brain_artifacts-brain-files",
+      "hash": "2640428dd65364707291a67b21640456977ffecb1b77594050f551bbeffb0918"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/palace-rooms-wing_dsom_core__room_clean_architecture-design-laws.md",
+      "output_path": "bundle/04-Research/DSOM/source-pages/palace-rooms-wing_dsom_core__room_clean_architecture-design-laws.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/palace-rooms-wing_dsom_core__room_clean_architecture-design-laws",
+      "resource": "vault://ssa-0/04-Research/DSOM/source-pages/palace-rooms-wing_dsom_core__room_clean_architecture-design-laws",
+      "hash": "203cba9200a06f50434613beec0c7ac55e637ef65ce986653db7102aeb862e28"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/palace-rooms-wing_dsom_core__room_crisp_strategy-ai-interaction.md",
+      "output_path": "bundle/04-Research/DSOM/source-pages/palace-rooms-wing_dsom_core__room_crisp_strategy-ai-interaction.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/palace-rooms-wing_dsom_core__room_crisp_strategy-ai-interaction",
+      "resource": "vault://ssa-0/04-Research/DSOM/source-pages/palace-rooms-wing_dsom_core__room_crisp_strategy-ai-interaction",
+      "hash": "f86ce731b6ef04a174955899f2a83dbc1c23c90c5e143518785509de447440b3"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/palace-rooms-wing_dsom_core__room_ledger-version-history.md",
+      "output_path": "bundle/04-Research/DSOM/source-pages/palace-rooms-wing_dsom_core__room_ledger-version-history.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/palace-rooms-wing_dsom_core__room_ledger-version-history",
+      "resource": "vault://ssa-0/04-Research/DSOM/source-pages/palace-rooms-wing_dsom_core__room_ledger-version-history",
+      "hash": "7f4ec623350f5f7c6646edfa79d7bd5d9d94c281c924718870f0a720721a1d12"
+    },
+    {
+      "source_path": "04-Research/DSOM/source-pages/palace-rooms-wing_dsom_core__room_uncategorised-discoveries.md",
+      "output_path": "bundle/04-Research/DSOM/source-pages/palace-rooms-wing_dsom_core__room_uncategorised-discoveries.md",
+      "id": "ssa-0/04-Research/DSOM/source-pages/palace-rooms-wing_dsom_core__room_uncategorised-discoveries",
+      "resource": "vault://ssa-0/04-Research/DSOM/source-pages/palace-rooms-wing_dsom_core__room_uncategorised-discoveries",
+      "hash": "f0d81d96394bb26394871df77adf89b298c385a5a5c16297f506d624ae699510"
+    },
+    {
+      "source_path": "04-Research/OKF/Audy-OKF-Profile-Draft.md",
+      "output_path": "bundle/04-Research/OKF/Audy-OKF-Profile-Draft.md",
+      "id": "ssa-0/04-Research/OKF/Audy-OKF-Profile-Draft",
+      "resource": "vault://ssa-0/04-Research/OKF/Audy-OKF-Profile-Draft",
+      "hash": "d7aad75a3e66e6fe1770905cffe8ff757c65ebd331267fa4e5cb20630fe59dc4"
+    },
+    {
+      "source_path": "04-Research/OKF/OKF-Adoption-Spec.md",
+      "output_path": "bundle/04-Research/OKF/OKF-Adoption-Spec.md",
+      "id": "ssa-0/04-Research/OKF/OKF-Adoption-Spec",
+      "resource": "vault://ssa-0/04-Research/OKF/OKF-Adoption-Spec",
+      "hash": "8b4f8d2b0aa903eb514ea8ac7e4f1968f0fcff073d6f08cf399d02baa057baea"
+    },
+    {
+      "source_path": "04-Research/OKF/OKF-Audy-Vault-Gap-Analysis.md",
+      "output_path": "bundle/04-Research/OKF/OKF-Audy-Vault-Gap-Analysis.md",
+      "id": "ssa-0/04-Research/OKF/OKF-Audy-Vault-Gap-Analysis",
+      "resource": "vault://ssa-0/04-Research/OKF/OKF-Audy-Vault-Gap-Analysis",
+      "hash": "c4da5bb2c1c5225c0d6a8254c75078939eb8ccf7673deddaf6868e232bd092b4"
+    },
+    {
+      "source_path": "04-Research/OKF/OKF-Concept-Map.md",
+      "output_path": "bundle/04-Research/OKF/OKF-Concept-Map.md",
+      "id": "ssa-0/04-Research/OKF/OKF-Concept-Map",
+      "resource": "vault://ssa-0/04-Research/OKF/OKF-Concept-Map",
+      "hash": "89cc7e433ed5774c4700aafa5b1f6eb9516e9a20ee308f3184a24c864ec501a8"
+    },
+    {
+      "source_path": "04-Research/OKF/README.md",
+      "output_path": "bundle/04-Research/OKF/README.md",
+      "id": "ssa-0/04-Research/OKF/README",
+      "resource": "vault://ssa-0/04-Research/OKF/README",
+      "hash": "d100eeaf4f13da2297f7eecc9b72fac2e25042784dff9b03d949a0204193d559"
+    },
+    {
+      "source_path": "04-Research/OKF/source-pages/README.md",
+      "output_path": "bundle/04-Research/OKF/source-pages/README.md",
+      "id": "ssa-0/04-Research/OKF/source-pages/README",
+      "resource": "vault://ssa-0/04-Research/OKF/source-pages/README",
+      "hash": "3e39c5d3a4346a01b6c7610f3ab8c63d8b749c641bb42175bce7c4198455becf"
+    },
+    {
+      "source_path": "04-Research/OKF/source-pages/SPEC.md",
+      "output_path": "bundle/04-Research/OKF/source-pages/SPEC.md",
+      "id": "ssa-0/04-Research/OKF/source-pages/SPEC",
+      "resource": "vault://ssa-0/04-Research/OKF/source-pages/SPEC",
+      "hash": "df65abae302c690a0832a27f83053c51632cc0e2ef682a05ae394950a5fdf401"
+    },
+    {
+      "source_path": "AGENTS.md",
+      "output_path": "bundle/AGENTS.md",
+      "id": "ssa-0/AGENTS",
+      "resource": "vault://ssa-0/AGENTS",
+      "hash": "7c1a3d68b4b7009906bf5a88630b0ba21efad69d3af2f73113f55682a6617e58"
+    },
+    {
+      "source_path": "OPERATIONS.md",
+      "output_path": "bundle/OPERATIONS.md",
+      "id": "ssa-0/OPERATIONS",
+      "resource": "vault://ssa-0/OPERATIONS",
+      "hash": "05e7cafd6f58b81d96095add4600d0a96645bab20f8c994e218bf067e3678452"
+    }
+  ],
+  "bundle_hash": "73541c4b94ce9df37f0a179d65009b67e98e9c9d3d9750e3ef7a6afb0bde188f"
+}

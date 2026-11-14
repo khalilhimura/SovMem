@@ -1,0 +1,100 @@
+name: SovMem audit
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  merge_group:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  scope:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      full: ${{ steps.scope.outputs.full }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Verify change-routing policy
+        run: node --test .github/scripts/sovmem-scope.test.mjs
+      - name: Select full regression checks
+        id: scope
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha || github.event.merge_group.base_sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha || github.event.merge_group.head_sha }}
+        run: node .github/scripts/sovmem-scope.mjs
+      - name: Verify audit freshness without Rust
+        run: node scripts/generate-sovmem-build-audit.mjs --check
+
+  verify:
+    needs: scope
+    # Keep the check visible as skipped, rather than leaving path-filtered
+    # required checks pending. Manual dispatch always selects the full job.
+    if: needs.scope.outputs.full == 'true'
+    runs-on: ubuntu-latest
+    # Cold Tantivy builds plus ~10 minutes of Rust test execution exceed the
+    # previous 20-minute budget whenever the cargo cache misses.
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      # rust-toolchain.toml is the single source of truth for the channel and
+      # for the clippy/rustfmt components. Installing via rustup keeps that pin
+      # authoritative instead of duplicating the version in this workflow.
+      - name: Install pinned Rust toolchain
+        run: rustup show active-toolchain || rustup toolchain install
+      - name: Report toolchain
+        run: |
+          rustc --version
+          cargo --version
+          cargo clippy --version
+          cargo fmt --version
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: sovmem
+
+      - run: npm ci
+      - run: npm run audit:sovmem:check
+
+      - name: Formatting
+        run: cargo fmt --manifest-path sovmem/Cargo.toml --check
+      - name: Lints
+        run: cargo clippy --manifest-path sovmem/Cargo.toml --all-targets --locked --features test-support -- -D warnings
+
+      - name: Build with MCP
+        run: cargo build --locked --manifest-path sovmem/Cargo.toml
+      - name: Build without MCP
+        run: cargo build --locked --manifest-path sovmem/Cargo.toml --no-default-features
+      - run: npm test
+
+      - name: Baseline integrity gate (readability check — not a regression comparison)
+        run: |
+          # This control verifies the stored baseline file is readable and
+          # has the expected format.  It is NOT a regression comparison:
+          # a full regression (fresh eval against baseline) requires a built
+          # Tantivy index from the Audy vault, which CI does not have.
+          #
+          # See sovmem/tests/eval.rs for regression-simulation tests.
+          #
+          BASELINE_HITS=$(jq -r '.metrics.queries_with_hit' evals/audy-sovmem-v0/baseline.json)
+          echo "Baseline hits: $BASELINE_HITS"
+          if [ -z "$BASELINE_HITS" ] || [ "$BASELINE_HITS" -lt 1 ]; then
+            echo "FAIL: could not read baseline"
+            exit 1
+          fi
+          echo "PASS: eval baseline file is readable ($BASELINE_HITS hits)"
