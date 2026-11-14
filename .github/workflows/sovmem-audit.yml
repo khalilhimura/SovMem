@@ -24,6 +24,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+      - name: Check bootstrap shell syntax
+        run: bash -n scripts/setup-codex.sh scripts/codex-env.sh
       - name: Verify change-routing policy
         run: node --test .github/scripts/sovmem-scope.test.mjs
       - name: Select full regression checks
