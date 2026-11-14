@@ -36,4 +36,4 @@ printf 'export CARGO_HOME=%q\nexport RUSTUP_HOME=%q\nexport npm_config_cache=%q\
   "$CARGO_HOME" "$RUSTUP_HOME" "$npm_config_cache" > var/codex/env.sh
 
 echo 'Dependencies installed. In subsequent Bash shells, run: source var/codex/env.sh'
-echo 'Validate with the commands documented in docs/codex-cloud-setup.md.'
+echo 'Validate with the commands documented in README.md.'

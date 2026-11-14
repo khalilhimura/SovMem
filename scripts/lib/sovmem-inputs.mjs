@@ -6,6 +6,7 @@ const files = Object.freeze([
   'scripts/generate-sovmem-build-audit.mjs', 'scripts/lib/sovmem-build-audit.mjs',
   'scripts/lib/sovmem-inputs.mjs', 'scripts/sovmem-sentry.sh',
   'scripts/provision-sovmem-p3-safe-clone.mjs', 'scripts/verify-sovmem-p3-safe-clone.mjs',
+  'scripts/setup-codex.sh', 'scripts/codex-env.sh',
   'scripts/run-js-tests.mjs', 
   'test/retrieval-corpus-version.test.js',
   'docs/sovmem_v0.3_execution_plan.md', 'docs/spec/source-lineage-june-23-spec-bundle-verbatim.md',
